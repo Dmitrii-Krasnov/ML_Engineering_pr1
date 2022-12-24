@@ -1,13 +1,11 @@
 import streamlit as st
-import torch
 from transformers import pipeline
 
 @st.cache(allow_output_mutation=True)
 def load_model():
     return pipeline(
         "summarization",
-        "pszemraj/long-t5-tglobal-base-16384-book-summary",
-        device=0 if torch.cuda.is_available() else -1,
+        "pszemraj/long-t5-tglobal-base-16384-book-summary"
     )
 
 def load_text():
