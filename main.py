@@ -11,7 +11,7 @@ def load_model():
     )
 
 def load_text():
-    generation_text = st.text_area(label='Enter text foe summarization')
+    generation_text = st.text_area(label='Enter text for summarization')
     if generation_text:
         return generation_text
     else:
