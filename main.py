@@ -38,9 +38,10 @@ result = st.button('Get summary')
 
 if result:
     try:
-        summary = utils.generate_text(txt, txt_len)
-        st.write('**Results:**')
-        st.write(summary)
+        with st.spinner('Generation in progress...'):
+            summary = utils.generate_text(txt, txt_len)
+            st.write('**Results:**')
+            st.write(summary)
 
     except Exception as e:
         st.write(f'<span style="color: red">{e}</span>',
