@@ -19,7 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Python application](https://github.com/svwk/ML_Engineering_pr1/actions/workflows/python-app.yml/badge.svg)](https://github.com/svwk/ML_Engineering_pr1/actions/workflows/python-app.yml)
+
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -98,6 +98,9 @@ Here's why:
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
 Use the `BLANK_README.md` to get started.
+
+
+[![Python application](https://github.com/svwk/ML_Engineering_pr1/actions/workflows/python-app.yml/badge.svg)](https://github.com/svwk/ML_Engineering_pr1/actions/workflows/python-app.yml)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
