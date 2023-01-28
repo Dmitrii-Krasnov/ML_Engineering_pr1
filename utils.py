@@ -7,6 +7,7 @@ cuda_device = 0 if torch.cuda.is_available() else -1
 
 @cache(allow_output_mutation=True)
 def load_model(txt_length):
+    """Load the AI model and check text length"""
     if txt_length <= 8:
         return None
 
@@ -19,6 +20,7 @@ def load_model(txt_length):
 
 
 def generate_text(generation_text, generation_len):
+    """Function where AI generate short text"""
     if len(generation_text) < 10:
         raise ValueError("Source text is too short")
     if generation_len <= 8:

@@ -4,6 +4,7 @@ import utils
 
 
 def load_text():
+    """Get text from input text area in stream-lit"""
     generation_text = st.text_area(label='Enter text for summarization')
     if generation_text:
         return generation_text
@@ -12,6 +13,7 @@ def load_text():
 
 
 def load_len():
+    """Get int value from input text area in stream-lit"""
     generation_len_txt = st.text_input(label='Enter max length')
     if generation_len_txt:
         try:
