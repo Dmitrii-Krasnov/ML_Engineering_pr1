@@ -25,8 +25,7 @@
 <br />
 <div align="center">
   <img src="images/logo.png" alt="Logo" width="180" height="100">
-
-  <h3 align="center">Machine learning project</h3>
+  <h3 align="center" font>Machine learning project</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -54,7 +53,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+## AI model description
 
+A fine-tuned version of google/long-t5-tglobal-base on the kmfoda/booksum dataset:
+
+30+ epochs of fine-tuning from the base model on V100/A100 GPUs
+Training used 16384 token input / 1024 max output
+Read the paper by Guo et al. here: LongT5: Efficient Text-To-Text Transformer for Long Sequences
 
 ### Check the bage of conveyor
 
@@ -67,6 +72,7 @@
 Code lang and libraries we have used.
 
 * [PYTHON-3][Python-url]
+* [Used AI][AI-url]
 * [Stream-lit][Streamlit-url]
 * [PyTorch][Pytorch-url]
 * [Huggin face transformers][Transformers-url]
@@ -85,7 +91,13 @@ You can use requirements file to install all needed libraries
    ```sh
    pip install -r /path/to/requirements.txt
    ```
+   
+2. To start application write this
+```sh
+streamlit run main.py
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -129,3 +141,4 @@ Using that application you can summarize big text in small article. So you can r
 [Streamlit-url]: https://streamlit.io/
 [Pytorch-url]: https://pytorch.org/
 [Transformers-url]: https://huggingface.co/docs/transformers/index
+[AI-url]: https://huggingface.co/pszemraj/long-t5-tglobal-base-16384-book-summary
