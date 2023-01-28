@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="images/logo.png" alt="Logo" width="180" height="90">
+  <img src="images/logo.png" alt="Logo" width="180" height="100">
 
   <h3 align="center">Machine learning project</h3>
 </div>
