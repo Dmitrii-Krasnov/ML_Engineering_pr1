@@ -18,6 +18,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
+[![Python application](https://github.com/svwk/ML_Engineering_pr1/actions/workflows/python-app.yml/badge.svg)](https://github.com/svwk/ML_Engineering_pr1/actions/workflows/python-app.yml)
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
