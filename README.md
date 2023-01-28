@@ -93,9 +93,9 @@ You can use requirements file to install all needed libraries
    ```
    
 2. To start application write this
-```sh
-streamlit run main.py
-```
+    ```sh
+    streamlit run main.py
+    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
