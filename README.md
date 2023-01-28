@@ -69,6 +69,7 @@ Code lang and libraries we have used.
 * [PYTHON-3][Python-url]
 * [Stream-lit][Streamlit-url]
 * [PyTorch][Pytorch-url]
+* [Huggin face transformers][Transformers-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,3 +128,4 @@ Using that application you can summarize big text in small article. So you can r
 [Python-url]: https://www.python.org/
 [Streamlit-url]: https://streamlit.io/
 [Pytorch-url]: https://pytorch.org/
+[Transformers-url]: https://huggingface.co/docs/transformers/index
