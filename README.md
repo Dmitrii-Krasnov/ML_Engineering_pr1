@@ -92,7 +92,7 @@ You can use requirements file to install all needed libraries
    pip install -r /path/to/requirements.txt
    ```
    
-2. To start application write this
+2. Run application
     ```sh
     streamlit run main.py
     ```
