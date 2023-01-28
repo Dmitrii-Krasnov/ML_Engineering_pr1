@@ -72,7 +72,7 @@ Read the paper by Guo et al. here: LongT5: Efficient Text-To-Text Transformer fo
 Code lang and libraries we have used.
 
 * [PYTHON-3][Python-url]
-* [Used AI][AI-url]
+* [AI that we used (long-t5-tglobal-base)][AI-url]
 * [Stream-lit][Streamlit-url]
 * [PyTorch][Pytorch-url]
 * [Huggin face transformers][Transformers-url]
